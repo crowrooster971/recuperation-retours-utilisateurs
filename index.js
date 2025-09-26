@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Connexion à la base de données
 mongoose.connect('mongodb://localhost:27017/retours-utilisateurs', { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('Connecté à la base de données'))
+  .then(() => console.log('Connecté à la base de données avec succès'))
   .catch(err => console.error('Erreur de connexion :', err));
 
 app.get('/', (req, res) => {
