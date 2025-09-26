@@ -1,7 +1,7 @@
 {
   "name": "recuperation-retours-utilisateurs",
   "version": "1.0.0",
-  "description": "Application pour recueillir les retours des utilisateurs",
+  "description": "Application pour recueillir et analyser les retours des utilisateurs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
