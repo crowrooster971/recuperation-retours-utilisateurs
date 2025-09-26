@@ -12,9 +12,9 @@ mongoose.connect('mongodb://localhost:27017/retours-utilisateurs', { useNewUrlPa
   .catch(err => console.error('Erreur de connexion :', err));
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l'application de récupération des retours utilisateurs!');
+  res.send('Bienvenue sur l\'application de récupération des retours utilisateurs!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
+  console.log(`Serveur en cours d\'exécution sur le port ${PORT}`);
 });
