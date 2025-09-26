@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Connexion à la base de données
-mongoose.connect('mongodb://localhost:27017/retours-utilisateurs', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/user-feedback', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connecté à la base de données avec succès'))
   .catch(err => console.error('Erreur de connexion :', err));
 
